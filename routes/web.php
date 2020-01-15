@@ -23,3 +23,5 @@ Auth::routes(['verify' => true]);
 Route::get('/homeadmin', 'HomeAdminController@index')->name('homeadmin')->middleware('verified');
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/fixflood', 'FixfloodController@index')->name('fixflood');

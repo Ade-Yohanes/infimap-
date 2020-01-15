@@ -38,7 +38,7 @@
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     
-                    <img src="img/infisea.png" width="150px" style="margin: 0px;padding: 0px color:white;"/>
+                    <img src="img/logo-infimap.png" width="150px" style="margin: 0px;padding: 0px color:white;"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

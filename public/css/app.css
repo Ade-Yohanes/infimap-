@@ -9,4 +9,44 @@
 
  #mapid { height: 180px; }
 
+/* custom */
+
+/* draw mapbox */
+#delete, #export {
+   position: absolute;
+   top:50px;
+   right:10px;
+   z-index:100;
+   background:white;
+   color:black;
+   padding:6px;
+   border-radius:4px;
+   font-family: 'Helvetica Neue';
+   cursor: pointer;
+   font-size:12px;
+   text-decoration:none;
+}
+#export {
+   top:90px;
+}
+
+ /*image  */
+
+ .img{
+    max-width: 80%;
+    max-height: 7%;
+    
+ }
+ .img-fluid {
+     padding-top: 2px;
+     position: center;
+     align-content: center;
+     border: 2px;
+ }
+ .img-content{
+    padding-left: 10vh
+    border: 5px;
+    border-image: 6px;
+    padding-top: 1px;
+ }
 
